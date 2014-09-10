@@ -1,0 +1,5 @@
+host tuan800
+	user git
+	hostname git.tuan800-inc.com
+	port 22
+	identityfile ~/.ssh/tuan800
