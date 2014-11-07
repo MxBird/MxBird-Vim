@@ -29,7 +29,7 @@ alias stop_mysql="mysql.server stop"
 
 #Other
 alias up='uptime'
-alias vihosts="sudo vi /etc/hosts"
+alias vihosts="sudo mvim /etc/hosts"
 alias reload_alias="source ~/.alias.sh"
 
 
@@ -41,3 +41,8 @@ alias gc_head="git branch --merged | grep -v \"\*\" | grep -v \"develop\" | xarg
 alias gc_ci="git branch -r | grep ci_ | sed 's/origin\///g' | xargs -n 1 git push origin --delete"
 
 alias ehost="sudo vi /etc/hosts"
+
+
+# cap deploy
+alias staging_deploy="cap staging deploy"
+alias production_deploy="cap production deploy"
