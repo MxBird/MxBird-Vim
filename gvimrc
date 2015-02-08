@@ -18,13 +18,13 @@ set guioptions-=T
 set mouse=a
 
 " 设置颜色
-colorscheme Tomorrow-Night-Eighties
+colorscheme railscasts
 "autocmd! BufEnter,BufNewFile *.go colo last-night-bright "yesterday在这里是一个可备选的主题
 "autocmd! BufLeave *.go colo Tomorrow-Night-Bright
 
 " Gui字体
 if has("mac")
-	set guifont=Monaco:h14
+	set guifont=Monaco:h16
 	"set guifont=Menlo:h14
 	"set guifont=Source\ Code\ Pro:h14
 	"set guifont=Inconsolata-g:h14

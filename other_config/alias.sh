@@ -42,6 +42,10 @@ alias gc_ci="git branch -r | grep ci_ | sed 's/origin\///g' | xargs -n 1 git pus
 
 alias ehost="sudo vi /etc/hosts"
 
+#command
+alias clean_memory='sudo purge'
+alias update_software='sudo softwareupdate -i -a'
+
 
 # cap deploy
 alias staging_deploy="cap staging deploy"

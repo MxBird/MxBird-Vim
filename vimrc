@@ -26,9 +26,11 @@ set nocompatible
 		" color colorscheme
 		Bundle 'MxBird/CodeSchool.vim'
 		Bundle 'jpo/vim-railscasts-theme'
-		Bundle 'chriskempson/vim-tomorrow-theme'
-		Bundle 'altercation/vim-colors-solarized'
-		Bundle 'spf13/vim-colors'
+
+		"Bundle 'chriskempson/vim-tomorrow-theme'
+		"Bundle 'altercation/vim-colors-solarized'
+		"Bundle 'spf13/vim-colors'
+
 		" Auto close the block
 		Bundle "vim-scripts/matchit.zip"
 		Bundle "jiangmiao/auto-pairs"
