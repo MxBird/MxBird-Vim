@@ -19,7 +19,7 @@ set nocompatible
 		Bundle 'scrooloose/nerdtree'
 		Bundle 'scrooloose/nerdcommenter'
 		" Git
-		Bundle 'Git-Branch-Info'
+		Bundle 'taq/vim-git-branch-info'
 		Bundle 'tpope/vim-fugitive'
 		" Taglist
 		Bundle 'vim-scripts/taglist.vim'
@@ -102,7 +102,7 @@ set nocompatible
 	set softtabstop=4
 	" 设定 tab 长度为 4
 	set tabstop=4
-	" 设定提示宽度的标尺为100个字符
+	" 设定提示宽度的标尺为80个字符
 	set cc=80
 	" 光标距离上下边距行数
 	set so=3
