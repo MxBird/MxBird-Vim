@@ -36,19 +36,21 @@ set nocompatible
 		Bundle "jiangmiao/auto-pairs"
 		" ctrlp.vim
 		Bundle 'kien/ctrlp.vim'
+		" vim plugin for yaml
+		Bundle 'mrk21/yaml-vim'
+		Bundle 'chase/vim-ansible-yaml'
+		"Bundle 'stephpy/vim-yaml'
 		" vim plugin for Ruby
 		Bundle 'vim-ruby/vim-ruby'
 		Bundle 'tpope/vim-rails'
 		Bundle 'tpope/vim-surround'
-		" Vim yaml plugin
-		Bundle 'avakhov/vim-yaml'
 		" Markdown hightline plugin
 		"Bundle 'Markdown'
 		" tabular #code formate
 		Bundle 'godlygeek/tabular'
 		" Yggdroot indentLine
 		Bundle 'Yggdroot/indentLine'
-		Bundle 'mangege/web-indent'
+		"Bundle 'mangege/web-indent'
 		"a css/html helper
 		"Bundle 'ZenCoding.vim'
 		" Vim python plugin
@@ -91,7 +93,7 @@ set nocompatible
 " }
 " NERDTree setting {
 	map <C-g> :NERDTreeToggle<cr>
-	let NERDTreeIgnore = ['.pyc', '.swp', 'rdb']
+	let NERDTreeIgnore = ['\.sock$', '.pyc', '.swp', 'rdb']
 " }
 " format setting {
 	" 开始行号
@@ -118,8 +120,10 @@ set nocompatible
 	" }
 
 	" 设置代码折叠 {
-	set foldmethod=marker
+	"set foldmethod=marker
+	set foldmethod=indent
 	set foldnestmax=3
+	set foldclose=all
 	set foldenable
 	" }
 " }

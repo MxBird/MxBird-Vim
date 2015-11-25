@@ -24,10 +24,10 @@ colorscheme railscasts
 
 " Gui字体
 if has("mac")
-	set guifont=Monaco:h16
+	"set guifont=Monaco:h14
 	"set guifont=Menlo:h14
 	"set guifont=Source\ Code\ Pro:h14
-	"set guifont=Inconsolata-g:h14
+	set guifont=Inconsolata-g:h14
 	"set guifont=Inconsolata:h16
 	"set guifont=PT\ Mono:h16
 else

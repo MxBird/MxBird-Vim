@@ -46,7 +46,7 @@ export UPDATE_ZSH_DAYS=3
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow rails ruby rbenv brew)
+plugins=(git git-flow rails ruby rbenv brew sublime)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -71,17 +71,17 @@ source ~/.alias.sh
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
-export PATH=/opt/local/bin:$PATH
-export PATH=/opt/local/sbin:$PATH
+#export PATH=/opt/local/bin:$PATH
+#export PATH=/opt/local/sbin:$PATH
 
 #取消zsh的自动修正
 setopt CORRECT
 unsetopt correct_all
 
-export PATH=/usr/local/bin:$PATH
+export PATH=$PATH:/usr/local/bin
 
 #rbenv config
-export PATH="$HOME/.rbenv/bin:$PATH"
+#export PATH="$HOME/.rbenv/bin:$PATH"
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
@@ -92,6 +92,7 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 #nvm nodejs version manage
 source $(brew --prefix nvm)/nvm.sh
 export NVM_DIR=~/.nvm
+export HOMEBREW_GITHUB_API_TOKEN=64ead9ea6809be3ca602b1a7aaa94a2db3bbcbe2
 
 export EDITOR='vim' 
 source ~/.bin/tmuxinator.zsh 
