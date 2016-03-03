@@ -90,10 +90,10 @@ export PYENV_ROOT=/usr/local/opt/pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 #nvm nodejs version manage
-source $(brew --prefix nvm)/nvm.sh
-export NVM_DIR=~/.nvm
-export HOMEBREW_GITHUB_API_TOKEN=64ead9ea6809be3ca602b1a7aaa94a2db3bbcbe2
+#source $(brew --prefix nvm)/nvm.sh
+#export NVM_DIR=~/.nvm
+#export HOMEBREW_GITHUB_API_TOKEN=64ead9ea6809be3ca602b1a7aaa94a2db3bbcbe2
 
 export EDITOR='vim' 
-source ~/.bin/tmuxinator.zsh 
+#source ~/.bin/tmuxinator.zsh 
 export DISABLE_AUTO_TITLE=true
