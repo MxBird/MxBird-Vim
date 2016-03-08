@@ -23,6 +23,7 @@ set nocompatible
     Bundle 'tpope/vim-fugitive'
     " Taglist
     Bundle 'vim-scripts/taglist.vim'
+	Bundle 'jeetsukumaran/vim-buffergator'
     " color colorscheme
     Bundle 'MxBird/CodeSchool.vim'
     Bundle 'jpo/vim-railscasts-theme'
