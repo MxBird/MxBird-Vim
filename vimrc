@@ -23,6 +23,7 @@ set nocompatible
 		Bundle 'tpope/vim-fugitive'
 		" Taglist
 		Bundle 'vim-scripts/taglist.vim'
+		Bundle 'jeetsukumaran/vim-buffergator'
 		" color colorscheme
 		Bundle 'MxBird/CodeSchool.vim'
 		Bundle 'jpo/vim-railscasts-theme'
@@ -42,6 +43,7 @@ set nocompatible
 		"Bundle 'stephpy/vim-yaml'
 		" vim plugin for Ruby
 		Bundle 'vim-ruby/vim-ruby'
+		"Bundle 'mattn/vim-rubyfmt'
 		Bundle 'tpope/vim-rails'
 		Bundle 'tpope/vim-surround'
 		" Markdown hightline plugin
@@ -166,6 +168,14 @@ set nocompatible
 	nmap <leader>w :w!<CR>
 	" 快速保存并退出
 	map <leader>wq :wq<cr>
+
+	" 快速移动行
+	nnoremap ∆ :m .+1<CR>==
+	nnoremap ˚ :m .-2<CR>==
+	inoremap ∆ <Esc>:m .+1<CR>==gi
+	inoremap ˚ <Esc>:m .-2<CR>==gi
+	vnoremap ∆ :m '>+1<CR>gv=gv
+	vnoremap ˚ :m '<-2<CR>gv=gv
 " }
 
 " other setting {
