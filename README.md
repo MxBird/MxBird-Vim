@@ -2,7 +2,7 @@
 
 ##自动化脚本
 ```	
-git clone git@github.com:Aartisan/vim.git && cd vim　&& sh ./install.sh
+git clone git@github.com:MxBird/MxBird-Vim.git && cd MxBird-Vim　&& sh ./install.sh
 ```
 
 ##安装golang的自动补全
