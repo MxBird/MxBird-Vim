@@ -23,7 +23,7 @@ set nocompatible
     Bundle 'tpope/vim-fugitive'
     " Taglist
     Bundle 'vim-scripts/taglist.vim'
-  Bundle 'jeetsukumaran/vim-buffergator'
+    Bundle 'jeetsukumaran/vim-buffergator'
     " color colorscheme
     Bundle 'MxBird/CodeSchool.vim'
     Bundle 'jpo/vim-railscasts-theme'
@@ -75,7 +75,6 @@ set nocompatible
   " required!
   filetype plugin on
   filetype plugin indent on
->>>>>>> master
 " }
 " TagList setting {
   " Show Tlist on the right
