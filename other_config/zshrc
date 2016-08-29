@@ -95,3 +95,5 @@ export EDITOR='vim'
 #source ~/.bin/tmuxinator.zsh
 #
 export DISABLE_AUTO_TITLE=true
+export HOMEBREW_GITHUB_API_TOKEN="c7c46ec09cde68773ca278aac57e797f56ba540a"
+

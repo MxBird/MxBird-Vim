@@ -1,9 +1,9 @@
 [user]
-  name = Ray
-  email = ray.artisan@gmail.com
+	name = 
+	email = 
 
 [core]
-  excludesfile = /Users/Ray/.gitignore_global
+	excludesfile = /Users/Ray/.gitignore_global
   editor       = /usr/bin/vim
 
 [alias]
@@ -28,8 +28,10 @@
   autosetuprebase = always
 
 [difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path = 
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 [mergetool "sourcetree"]
-  cmd = /Users/Ray/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
+	cmd = /Users/Ray/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/Ray/.stCommitMsg
