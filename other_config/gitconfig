@@ -33,5 +33,3 @@
 [mergetool "sourcetree"]
 	cmd = /Users/Ray/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[commit]
-	template = /Users/Ray/.stCommitMsg

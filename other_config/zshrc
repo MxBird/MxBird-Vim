@@ -75,7 +75,7 @@ source ~/.alias.sh
 setopt CORRECT
 unsetopt correct_all
 
-export PATH=$PATH:/usr/local/bin
+export PATH=/usr/local/bin:$PATH
 
 #rbenv config
 #export PATH="$HOME/.rbenv/bin:$PATH"
