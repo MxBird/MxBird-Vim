@@ -4,32 +4,25 @@
 
 [core]
 	excludesfile = /Users/Ray/.gitignore_global
-  editor       = /usr/bin/vim
+	editor = /usr/bin/vim
 
 [alias]
-  mer = merge
-  c   = checkout
-  ca  = commit -a
-  s   = status
-  b   = branch
-  ba  = branch -a
-  df  = diff
-  pl  = pull
-  ps  = push
-  pso = push origin
-  plo = pull origin
-  ftp = fetch -p --all
-  r   = review
+	mer = merge
+	c   = checkout
+	ca  = commit -a
+	s   = status
+	b   = branch
+	ba  = branch -a
+	df  = diff
+	pl  = pull
+	ps  = push
+	pso = push origin
+	plo = pull origin
+	ftp = fetch -p --all
+	r   = review
 
 [push]
-  default = simple
+	default = simple
 
 [branch]
-  autosetuprebase = always
-
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Users/Ray/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+	autosetuprebase = always
