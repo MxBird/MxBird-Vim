@@ -1,6 +1,6 @@
 [user]
-	name = 
-	email = 
+	name = Ray
+	email = ray.artisan@gmail.com
 
 [core]
 	excludesfile = /Users/Ray/.gitignore_global
@@ -26,3 +26,9 @@
 
 [branch]
 	autosetuprebase = always
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Users/Ray/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
