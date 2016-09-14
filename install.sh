@@ -12,14 +12,14 @@ else
 fi
 
 path=$DIR
-vundleDir=$path/vim/bundle/vundle
+vundleDir=$path/vim/bundle/Vundle.vim
 
 if ! [ -d $vundleDir/.git ]; then
 	if [ -d $vundleDir ]; then
 		rm -rf $vundleDir
 	fi
 	echo ">> Start install vundle..."
-	git clone https://github.com/gmarik/vundle.git $vundleDir
+	git clone https://github.com/VundleVim/Vundle.vim.git $vundleDir
 	echo ">> Completed!"
 fi
 
