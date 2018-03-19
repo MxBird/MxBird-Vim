@@ -70,6 +70,7 @@ export LANG=zh_CN.UTF-8
 source ~/.alias.sh
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 #取消zsh的自动修正
 setopt CORRECT
