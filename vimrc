@@ -54,6 +54,7 @@ Plugin 'Yggdroot/indentLine'
 " Vim js more beatiful
 "Plugin 'maksimr/vim-jsbeautify'
 "Plugin 'einars/js-beautify'
+Plugin 'posva/vim-vue'
 
 " JS completion
 "Plugin 'ahayman/vim-nodejs-complete'
@@ -109,6 +110,7 @@ filetype plugin on
     autocmd FileType python     set shiftwidth=4 | set expandtab | setlocal foldmethod=indent
     autocmd FileType php        set shiftwidth=4 | set expandtab
     autocmd FileType html       set shiftwidth=2 | set expandtab | set softtabstop=2
+    autocmd FileType vue       set shiftwidth=2 | set expandtab | set softtabstop=2
     autocmd FileType eruby      set shiftwidth=2 | set expandtab | set softtabstop=2
     autocmd FileType javascript set shiftwidth=4 | set expandtab | set softtabstop=4
     autocmd FileType go         set shiftwidth=4 | set softtabstop=2
