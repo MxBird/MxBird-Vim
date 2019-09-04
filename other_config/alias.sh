@@ -16,6 +16,9 @@ alias start_mysql="mysql.server start"
 ##alias stop_mysql="/usr/local/opt/mysql55/bin/mysql.server stop"
 alias stop_mysql="mysql.server stop"
 
+#zookeeper
+alias start_ZK="zkServer start"
+
 # Mongodb
 alias start_mongodb="mongod --fork --config /usr/local/etc/mongod.conf"
 alias stop_mongodb="mongo admin --eval \"db.shutdownServer()\""
