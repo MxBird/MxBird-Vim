@@ -74,16 +74,12 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 setopt CORRECT
 unsetopt correct_all
 
-export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/sbin:$PATH"
 
 #rbenv config
 #export PATH="$HOME/.rbenv/bin:$PATH"
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-#pyenv config
-export PYENV_ROOT=/usr/local/opt/pyenv
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 #nvm nodejs version manage
 export NVM_DIR="$HOME/.nvm"
@@ -91,7 +87,15 @@ export NVM_DIR="$HOME/.nvm"
 
 export EDITOR='vim'
 #source ~/.bin/tmuxinator.zsh
-#
+
 export DISABLE_AUTO_TITLE=true
 export HOMEBREW_GITHUB_API_TOKEN="c7c46ec09cde68773ca278aac57e797f56ba540a"
+#export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+export TNVM_DIR="/Users/Ray/.tnvm"
+[ -s "$TNVM_DIR/tnvm.sh" ] && . "$TNVM_DIR/tnvm.sh"  # This loads tnvm
+
+source /Users/Ray/.gvm/scripts/gvm
