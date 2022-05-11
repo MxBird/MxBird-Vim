@@ -31,7 +31,7 @@ export UPDATE_ZSH_DAYS=3
 # DISABLE_CORRECTION="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment following line if you want to disable marking untracked files under
 # VCS as dirty. This makes repository status check for large repositories much,
@@ -66,7 +66,6 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 source ~/.alias.sh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
@@ -74,6 +73,8 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 setopt CORRECT
 unsetopt correct_all
 
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/sbin:/Users/Ray/go/bin:$PATH"
 
 #rbenv config
@@ -89,11 +90,10 @@ export EDITOR='vim'
 #source ~/.bin/tmuxinator.zsh
 
 export DISABLE_AUTO_TITLE=true
-export HOMEBREW_GITHUB_API_TOKEN="c7c46ec09cde68773ca278aac57e797f56ba540a"
+export HOMEBREW_GITHUB_API_TOKEN="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"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export TNVM_DIR="/Users/Ray/.tnvm"
 [ -s "$TNVM_DIR/tnvm.sh" ] && . "$TNVM_DIR/tnvm.sh"  # This loads tnvm
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
